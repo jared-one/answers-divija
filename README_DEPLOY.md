@@ -1,38 +1,31 @@
-# THE PROOF DESK | Static site, Release 1.0
+# The Proof Desk · Release 1.1
 
-## Deployment with GitHub GUI and Vercel
+## GitHub GUI + Vercel deployment
 
-1. Unzip `Proof_Desk_SITE_READY_FOR_GITHUB.zip`.
-2. Open the extracted folder. **Upload its contents, not the enclosing folder**, into the root of the GitHub repository linked to Vercel. The repository root must contain `index.html`, `assets/`, `notes/`, `feedback/`, `papers/`, and `guides/`.
-3. Commit the changes. On a Vercel project connected to that repository, the new commit usually triggers a fresh deployment.
-4. Ensure Vercel project Framework Preset is **Other** and the Root Directory is the repo root. No build command is required for this plain static HTML site. Do not set an output subfolder that excludes `index.html`.
-5. Visit the Vercel URL and test notes, PDFs, feedback and dark mode on phone and laptop.
+1. Download the GitHub-ready ZIP and **extract it**.
+2. Upload the **contents** of the extracted folder (not the outer folder or the ZIP) to the root of the **existing** GitHub repository connected to Vercel. The root must contain `index.html`, `assets/`, `notes/`, `papers/`, `feedback/`, and `guides/`.
+3. Commit. When uploading by GitHub web UI, note that it may not overwrite same-named existing files: if GitHub reports a collision, edit/replace those files explicitly or use a local Git commit. **Verify that `index.html`, `assets/js/site.js`, and `assets/css/site.css` were replaced.**
+4. In Vercel, use a static site / Framework Preset **Other**, repo root as Root Directory, no special build command or output subfolder. Wait for the connected deployment to complete, then test the new domain yourself.
+5. Check Overview, Benchmark 1, Benchmark 2, Toolkit, Reading Library and My Progress on mobile and laptop. Try the theme switch and the PDF/HTML links. Confirm countdown on the home page.
 
-The ZIP is a prebuilt site. No npm, keys, backend, database, paid API, or command line is required. Existing GitHub files outside these paths can remain, but remove obsolete deployment routes only if you understand their impact.
+## Content architecture
 
-## Navigation
+- `#benchmark1`: 8 original exam questions, answer booklet, original Foundation Notes R0.2 light/dark, and historical qualitative feedback.
+- `#toolkit`: expanded shared Release 0.4 proof notes, light/dark, printable PDF and one-page method guide. Created after Benchmark 1 and before Benchmark 2.
+- `#benchmark2`: second exam paper, answer booklet, question-by-question feedback and new post-test Proof Repair Notes.
+- `#library`: optional learning links.
+- `#tracker`: optional on-device checklists and reflection. Existing `proofdesk-progress-v1` keys are preserved; new ones are simply added. Export/Import works across devices only when done manually.
 
-- `index.html` is the central dashboard.
-- `notes/` holds the actual Release 0.4 HTML learning pages.
-- `papers/` holds full and subject-specific PDF student examination papers.
-- `feedback/` holds student-facing learning feedback without marks.
-- `guides/` holds the 12-page notes PDF and single-page method guide.
-- `assets/css/site.css` and `assets/js/site.js` implement responsive navigation, theme and local progress.
+Old bookmark routes `#notes`, `#papers` and `#feedback` are mapped to Toolkit, Benchmark 1 and Benchmark 2 respectively.
 
-## Personal data and privacy
+## The BMO countdown
 
-This directory contains **no original handwritten student photos, no examiner PDF, no private marking data, and no scores**. This is intentional. A public Vercel site is accessible to anyone with the URL even if its routes are unlisted; robots.txt and noindex are NOT security controls. The separate optional local evidence ZIP includes the original submissions and is **NOT** for deployment. Do not upload that ZIP to a public repository. If you want a private archive, use an authenticated access-controlled service.
+The counter uses **Europe/London calendar dates** and updates on page focus, visibility change and every minute. On 18 November 2026 it reads `Today`; afterwards it reads `Held`. It does not require deployment each morning.
 
-Progress checkboxes and reflections are kept only in the browser's localStorage. They do not sync across devices. Use Export/Import JSON to move them manually. The page does not transmit data to our servers and has no analytics; Google Fonts is an external font request and external reading links naturally contact their destination sites.
+## Privacy and sharing
 
-## Limitations
+This is a **public static website**. Anyone with the URL can see the study materials and student-facing feedback. It is not password protected. It deliberately excludes handwritten photographs, private scores, original grading and examiner reports. `robots.txt` discourages indexing but **is not a privacy or access-control mechanism**. If you need private sharing, use real authentication or a private alternative. The tracker is saved in each browser only; there is no cross-device synchronization. External fonts and clicked reference links make connections to their providers. No custom analytics, student upload forms or server-stored student progress have been added.
 
-- Benchmark 1 grades were disputed by independent review. This site displays qualitative historical feedback without presenting them as final marks.
-- Benchmark 2 work included hints and extra time; no valid timed improvement statistic is claimed.
-- The child study notes and feedback pages are copied from the supplied earlier releases, with a small back-to-hub link added.
-- The exam papers are independent formative papers, not UKMT- or IMO-issued.
-- A static GitHub/Vercel site has no student account, private storage, server-side tracking, or login.
+## Quality notes
 
-## Personalisation
-
-Edit the heading and description in `index.html`; change visual tokens at the top of `assets/css/site.css` to adjust colours. Prefer retaining the `notes/` visual style and `papers/` PDFs.
+Benchmark marks are not presented as a fair time-controlled improvement score. The benchmark 1 numerical marking was disputed, and the benchmark 2 attempt was not fully time controlled. Source exam PDFs are included unchanged to retain the formal exam style. Site copy is formatted without em dashes.

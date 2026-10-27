@@ -7,3 +7,17 @@
 @media(max-width:570px){.today-label{display:none}.topbar-caption{font-size:9px}.topbar{padding:0 16px}.top-controls{gap:5px}main{padding:31px 18px 65px}.site-footer{margin:0 18px}.hero-grid{display:block}.hero-drawing{display:none}.hero-title{font-size:clamp(60px,14vw,82px)}.hero-lead{font-size:14px}.home-tiles,.two-tiles,.feedback-grid,.tracker-two{grid-template-columns:1fr}.home-tiles{gap:9px}.tile{min-height:182px}.tile strong{font-size:31px}.tile-description{max-width:unset}.focus-strip{padding:20px;align-items:flex-start}.focus-strip h2{font-size:21px}.focus-time{min-width:80px;padding-left:12px}.days-count{font-size:40px}.page-top{margin-bottom:29px}.page-top h1{font-size:clamp(50px,12vw,68px)}.resource-card{min-height:325px}.subject-grid{grid-template-columns:1fr}.exam-feature{padding:22px 20px}.exam-meta{min-width:57px;padding-left:12px}.exam-meta span{font-size:25px}.feedback-card{min-height:260px}.progress-overview{grid-template-columns:1fr;gap:11px}.reading-list article{grid-template-columns:28px 1fr;gap:12px}.reading-list h2{font-size:20px}.track-actions>.action{flex:1;min-width:145px}.site-footer{font-size:9px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
 @media print{.sidebar,.topbar,.nav-mobile,.hero-actions,.track-actions{display:none!important}.work-area{margin:0}.view[hidden]{display:none!important}main{padding:0}.hero-drawing{display:none}}
+
+/* V1.1 benchmark-centred content and learning chronology */
+.journey-line{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;margin:19px 0 0;padding:14px 18px;border:1px solid var(--border);font-size:11px;color:var(--muted);background:var(--paper)}
+.journey-line span:nth-child(even){color:var(--faint);font-size:15px}
+.path-steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:11px;margin-bottom:30px}
+.path-steps>div{border:1px solid var(--border);background:var(--paper);padding:17px;display:grid;grid-template-columns:26px 1fr;gap:3px 9px;align-items:start}
+.path-steps span{font:400 20px Georgia,serif;color:var(--muted);grid-row:1 / span 2}
+.path-steps strong{font-size:12px}.path-steps small{font-size:11px;line-height:1.6;color:var(--muted)}
+.study-path-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}
+.study-path-card{border:1px solid var(--border);background:var(--paper);padding:25px;min-height:238px;display:flex;flex-direction:column}
+.study-path-card h2{font:400 32px 'Patrick Hand',cursive;margin:16px 0 4px}.study-path-card p{font-size:12px;line-height:1.8;color:var(--muted)}.study-path-card .underlink{align-self:start;margin-top:auto}
+body .focus-time{min-width:135px}body .focus-time .days-count{font-size:clamp(34px,4vw,52px);overflow-wrap:normal}body .focus-time .days-caption{text-align:center}
+a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
+@media(max-width:650px){.path-steps,.study-path-cards{grid-template-columns:1fr}.path-steps>div{grid-template-columns:35px 1fr}.journey-line{gap:6px 9px;padding:10px}.journey-line span{font-size:10px}.focus-time{min-width:90px!important}.home-tiles .tile{min-height:165px}}
