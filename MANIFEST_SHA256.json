@@ -1,0 +1,94 @@
+{
+  "README_DEPLOY.md": {
+    "sha256": "ad03a8681182a222744c6da5f4aeb60a1977658c77fb28714460835e763ae808",
+    "size": 3155
+  },
+  "assets/css/site.css": {
+    "sha256": "fbf9993577163aac736f756df3edc3588166f412df409c76b31e2c5263ba70f7",
+    "size": 14811
+  },
+  "assets/js/site.js": {
+    "sha256": "2f7939adb0afa528b7566ed605ebac22edd313a0e47401210896cc2830abe5bd",
+    "size": 4459
+  },
+  "feedback/Benchmark_1_Learning_Record.html": {
+    "sha256": "f8e795bb8c84c1a5b9f780fbb5a6e1ba3b028b32e26c2e2d45fd280a20a76164",
+    "size": 4323
+  },
+  "feedback/Benchmark_2_Proof_Feedback.html": {
+    "sha256": "af26340b56e5e412708e0192ff5fae314fe0c8ecc2d98c78d78e9e5f9cf0c067",
+    "size": 20113
+  },
+  "guides/One_Page_Method_Guide.pdf": {
+    "sha256": "cb823aac90fd193ae6958d425038bb74a81afae9db2b1e85d081b5f617894f85",
+    "size": 28176
+  },
+  "guides/Proof_Laboratory_Print.pdf": {
+    "sha256": "e34de005eb5df39e928d9709b0e96744dbf9f17db4e1379db3e229a1a0c4debd",
+    "size": 206615
+  },
+  "index.html": {
+    "sha256": "4895db44025288715f454e5031a8ae170534d6859578aacbcb58a4ea5ed0654d",
+    "size": 19257
+  },
+  "notes/Proof_Laboratory_Inverted.html": {
+    "sha256": "2193522760b3f7adb2b9ee7b39bbe630800c3d7161d67c8a59c641c8d245b7ed",
+    "size": 50921
+  },
+  "notes/Proof_Laboratory_Light.html": {
+    "sha256": "c14bf563b8e693e98f740c3a31ad2e4acdd14a4c171f80487fd18e29dd985566",
+    "size": 50915
+  },
+  "papers/B1_Algebra.pdf": {
+    "sha256": "7eed03ef49e2bbe860484401a3dbb80c1792af8dbec54228da4e5d0a0bf7efbc",
+    "size": 204203
+  },
+  "papers/B1_Combinatorics.pdf": {
+    "sha256": "f76ef2ee70c93432e22ddd2554edcdc8a31a113da42e142749b82a138137f5ab",
+    "size": 181781
+  },
+  "papers/B1_Geometry.pdf": {
+    "sha256": "965ae02592827e3734fc7de2a18442233614075ece626edf8d3c6e42f6c4c762",
+    "size": 172369
+  },
+  "papers/B1_Number_Theory.pdf": {
+    "sha256": "ff444e9d28398270ce0e7e19b1f6afc814abd25c4a6faf0f0256df0241b3a700",
+    "size": 207348
+  },
+  "papers/B2_Algebra.pdf": {
+    "sha256": "4c988792763c3f657a5abafdfdf72ea252b371b283a541dfca09d89356dc3635",
+    "size": 150476
+  },
+  "papers/B2_Combinatorics.pdf": {
+    "sha256": "a2d20775702c2c3058e6510ff4f0064b43cd724e3589d0731ae5fe0302c901d8",
+    "size": 165842
+  },
+  "papers/B2_Geometry.pdf": {
+    "sha256": "c026b911cad600dbf0b9084c3a86af3c082a550fa6a686f0dc177d6c046ee872",
+    "size": 158307
+  },
+  "papers/B2_Number_Theory.pdf": {
+    "sha256": "53982f3bfb8eabffb184678c372eb524e68acc194c347ed1ae7bf2dffc949baa",
+    "size": 149767
+  },
+  "papers/Benchmark_1_Answer_Booklet.pdf": {
+    "sha256": "13c7db8181e597c625ee1093c0c77b705c82e8004b3a22b7cfc79d2650301991",
+    "size": 145654
+  },
+  "papers/Benchmark_1_Full.pdf": {
+    "sha256": "2dd40e804b5da60f30dbe292b2f43986a4ef04018c1876a84a54ddd10fd2ac4e",
+    "size": 239045
+  },
+  "papers/Benchmark_2_Answer_Booklet.pdf": {
+    "sha256": "422f6da54e3723c772702dc7ee1e822a2a5577854f9f0da755cf85871243e18e",
+    "size": 136317
+  },
+  "papers/Benchmark_2_Full.pdf": {
+    "sha256": "00986b161bdda85067e7f53c29fbb4581dbafd4b4a90f2810a86ff27c816344b",
+    "size": 208338
+  },
+  "robots.txt": {
+    "sha256": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",
+    "size": 26
+  }
+}
