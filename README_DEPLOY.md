@@ -1,31 +1,19 @@
-# The Proof Desk · Release 1.1
+# The Proof Desk - Release 1.2 / Benchmark 3
 
-## GitHub GUI + Vercel deployment
+## Deployment
+Unzip **Proof_Desk_V1_2_PUBLIC_SITE.zip** and upload only its extracted root contents to the existing GitHub repository connected to Vercel. The root contains `index.html`, `assets/`, `papers/`, `notes/`, `guides/`, `feedback/`. Preset: Other/static, no build command. Replace older `index.html`, `assets/js/site.js` and `assets/css/site.css` with the files from this release.
 
-1. Download the GitHub-ready ZIP and **extract it**.
-2. Upload the **contents** of the extracted folder (not the outer folder or the ZIP) to the root of the **existing** GitHub repository connected to Vercel. The root must contain `index.html`, `assets/`, `notes/`, `papers/`, `feedback/`, and `guides/`.
-3. Commit. When uploading by GitHub web UI, note that it may not overwrite same-named existing files: if GitHub reports a collision, edit/replace those files explicitly or use a local Git commit. **Verify that `index.html`, `assets/js/site.js`, and `assets/css/site.css` were replaced.**
-4. In Vercel, use a static site / Framework Preset **Other**, repo root as Root Directory, no special build command or output subfolder. Wait for the connected deployment to complete, then test the new domain yourself.
-5. Check Overview, Benchmark 1, Benchmark 2, Toolkit, Reading Library and My Progress on mobile and laptop. Try the theme switch and the PDF/HTML links. Confirm countdown on the home page.
+## New material
+- `#benchmark3`: 8 new formative proof problems; 56 marks and 190 minute subject totals, but not equated in difficulty to B1/B2. The public site contains only student PDFs and blank answer booklet.
+- `#practice`: an independent mini-lab and links to authentic UKMT/BMOS archives. The mini-lab is optional and can affect prior exposure for later diagnostics.
+- Tracker adds four B3 topic checkboxes using existing `proofdesk-progress-v1` local storage; old entries remain preserved.
+- BMO2 scheduling notice updated to the live UKMT announcement of 30 Jan 2027 invitation-only London National Final. Older cached UKMT materials may still show Jan 20.
 
-## Content architecture
+## Security and privacy
+This ZIP has **NO** examiner companion, private scoring, student photographs, full Scribd checklist, or private files. Do not upload the separate mentor ZIP to a public repository. `robots.txt` is only an indexing request and does not make a website private. This static site has no server-stored student progress.
 
-- `#benchmark1`: 8 original exam questions, answer booklet, original Foundation Notes R0.2 light/dark, and historical qualitative feedback.
-- `#toolkit`: expanded shared Release 0.4 proof notes, light/dark, printable PDF and one-page method guide. Created after Benchmark 1 and before Benchmark 2.
-- `#benchmark2`: second exam paper, answer booklet, question-by-question feedback and new post-test Proof Repair Notes.
-- `#library`: optional learning links.
-- `#tracker`: optional on-device checklists and reflection. Existing `proofdesk-progress-v1` keys are preserved; new ones are simply added. Export/Import works across devices only when done manually.
+## Post-deployment testing
+Try Home, Benchmark 1, Benchmark 2, Benchmark 3, Toolkit, Practice, Library and Progress on desktop/mobile; open B3 PDFs, expand mini-lab hints, verify existing B1/B2 links and local tracker persistence.
 
-Old bookmark routes `#notes`, `#papers` and `#feedback` are mapped to Toolkit, Benchmark 1 and Benchmark 2 respectively.
-
-## The BMO countdown
-
-The counter uses **Europe/London calendar dates** and updates on page focus, visibility change and every minute. On 18 November 2026 it reads `Today`; afterwards it reads `Held`. It does not require deployment each morning.
-
-## Privacy and sharing
-
-This is a **public static website**. Anyone with the URL can see the study materials and student-facing feedback. It is not password protected. It deliberately excludes handwritten photographs, private scores, original grading and examiner reports. `robots.txt` discourages indexing but **is not a privacy or access-control mechanism**. If you need private sharing, use real authentication or a private alternative. The tracker is saved in each browser only; there is no cross-device synchronization. External fonts and clicked reference links make connections to their providers. No custom analytics, student upload forms or server-stored student progress have been added.
-
-## Quality notes
-
-Benchmark marks are not presented as a fair time-controlled improvement score. The benchmark 1 numerical marking was disputed, and the benchmark 2 attempt was not fully time controlled. Source exam PDFs are included unchanged to retain the formal exam style. Site copy is formatted without em dashes.
+## Educational limits
+The new problems are original/classical Olympiad-style, **not** official UKMT questions. Same number of questions, marks and total time does not establish a score-equated assessment. Historical BMO problems are linked at their original source rather than republished. The candidate can pause, reschedule, or decline without consequence.

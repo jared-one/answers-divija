@@ -21,3 +21,10 @@
 body .focus-time{min-width:135px}body .focus-time .days-count{font-size:clamp(34px,4vw,52px);overflow-wrap:normal}body .focus-time .days-caption{text-align:center}
 a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
 @media(max-width:650px){.path-steps,.study-path-cards{grid-template-columns:1fr}.path-steps>div{grid-template-columns:35px 1fr}.journey-line{gap:6px 9px;padding:10px}.journey-line span{font-size:10px}.focus-time{min-width:90px!important}.home-tiles .tile{min-height:165px}}
+
+/* V1.2: new formative benchmark and independent practice shelf */
+.b3-home-note{display:flex;justify-content:space-between;align-items:center;gap:24px;padding:23px 28px;border:1px solid var(--border);background:var(--paper);margin:23px 0 17px}
+.b3-home-note h2{font:400 28px/1.2 Georgia,serif;margin:9px 0 5px}
+.b3-home-note p{font-size:12px;line-height:1.75;color:var(--muted);margin:0;max-width:590px}
+.b3-home-note .action{flex-shrink:0}
+@media(max-width:650px){.b3-home-note{padding:20px;display:block}.b3-home-note .action{margin-top:15px}}
