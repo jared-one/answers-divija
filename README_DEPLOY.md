@@ -1,19 +1,26 @@
-# The Proof Desk - Release 1.2 / Benchmark 3
+# The Proof Desk - Release 1.3 / Proof Review
 
-## Deployment
-Unzip **Proof_Desk_V1_2_PUBLIC_SITE.zip** and upload only its extracted root contents to the existing GitHub repository connected to Vercel. The root contains `index.html`, `assets/`, `papers/`, `notes/`, `guides/`, `feedback/`. Preset: Other/static, no build command. Replace older `index.html`, `assets/js/site.js` and `assets/css/site.css` with the files from this release.
+## Deploy the public package
+Unzip `Proof_Desk_V1_3_PUBLIC_SITE.zip` and deploy its root contents to a static web host. Preserve the directory structure (`index.html`, `assets/`, `feedback/`, `notes/`, `papers/`, `guides/`). No build step.
 
-## New material
-- `#benchmark3`: 8 new formative proof problems; 56 marks and 190 minute subject totals, but not equated in difficulty to B1/B2. The public site contains only student PDFs and blank answer booklet.
-- `#practice`: an independent mini-lab and links to authentic UKMT/BMOS archives. The mini-lab is optional and can affect prior exposure for later diagnostics.
-- Tracker adds four B3 topic checkboxes using existing `proofdesk-progress-v1` local storage; old entries remain preserved.
-- BMO2 scheduling notice updated to the live UKMT announcement of 30 Jan 2027 invitation-only London National Final. Older cached UKMT materials may still show Jan 20.
+## What's new
+- New `#review` route with three pathways: Benchmark 3 proof repair (8 tasks), BMO1 2019 learning review (6 tasks), Geometry repair mini-lab.
+- `feedback/Benchmark_3_Proof_Repair.html` with 8 collapsible worked continuations.
+- `feedback/BMO_2019_Practice_Review.html` links to the genuine UKMT/BMOS archive and does not reproduce official question text.
+- `notes/Geometry_Proof_Repair.html` distinguishes a worked assisted example from independent evidence.
+- Home, Benchmark 3, Practice pages link to the new materials.
+- Progress checklist gains four new optional review activities. Existing `proofdesk-progress-v1` local data is preserved by the unchanged key and import/export format.
+- No changes to original B1/B2 PDFs, study resources or benchmark question PDFs.
 
-## Security and privacy
-This ZIP has **NO** examiner companion, private scoring, student photographs, full Scribd checklist, or private files. Do not upload the separate mentor ZIP to a public repository. `robots.txt` is only an indexing request and does not make a website private. This static site has no server-stored student progress.
+## Privacy and release boundary
+The PUBLIC zip contains no individual marks, private scorecards, student photographs, names or examiner companion. A separate `Proof_Desk_V1_3_MENTOR_ONLY.zip` contains provisional marks and **must not be deployed publicly**. A static site, robots.txt and noindex meta tags do not provide access control.
 
-## Post-deployment testing
-Try Home, Benchmark 1, Benchmark 2, Benchmark 3, Toolkit, Practice, Library and Progress on desktop/mobile; open B3 PDFs, expand mini-lab hints, verify existing B1/B2 links and local tracker persistence.
+## Manual checks after deployment
+1. Open all nine menu routes: Home, B1, B2, B3, Toolkit, Practice, Review, Library, Progress.
+2. Open all three review pages, expand each worked continuation, and follow the back link.
+3. Open earlier PDFs and verify older B1/B2 materials remain unchanged.
+4. Check tracker checkboxes persist after refresh and existing saved progress remains.
+5. Test mobile and keyboard navigation, and ensure private files never appear in the hosting directory.
 
-## Educational limits
-The new problems are original/classical Olympiad-style, **not** official UKMT questions. Same number of questions, marks and total time does not establish a score-equated assessment. Historical BMO problems are linked at their original source rather than republished. The candidate can pause, reschedule, or decline without consequence.
+## Educational status
+B3 is independent formative practice, 56 marks / 8 tasks / 190 suggested minutes, not BMO-equated. The 2019 archive links point to official UKMT/BMOS sources. Original answers are not reproduced. The review pages provide reasoning only, not certified UKMT grades.

@@ -28,3 +28,26 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
 .b3-home-note p{font-size:12px;line-height:1.75;color:var(--muted);margin:0;max-width:590px}
 .b3-home-note .action{flex-shrink:0}
 @media(max-width:650px){.b3-home-note{padding:20px;display:block}.b3-home-note .action{margin-top:15px}}
+
+/* V1.3 / proof review - mono editorial cards; no score data in deployable site */
+.review-intro{background:var(--paper);border:1px solid var(--border-strong);padding:30px 33px;margin:4px 0 30px}
+.review-intro .kicker{font-size:10px;letter-spacing:.14em;font-weight:800;color:var(--muted)}
+.review-intro h2{font:400 clamp(25px,3.4vw,35px)/1.25 Georgia,serif;letter-spacing:-.025em;margin:9px 0 10px;max-width:640px}
+.review-intro p{font-size:13px;line-height:1.85;color:var(--muted);max-width:670px;margin:0}
+.review-paths{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-bottom:30px}
+.review-path{display:flex;flex-direction:column;border:1px solid var(--border);background:var(--paper);min-height:265px;padding:24px;text-decoration:none}
+.review-path:hover{border-color:var(--border-strong)}
+.review-path h2{font:400 30px Georgia,serif;letter-spacing:-.025em;margin:17px 0 7px}
+.review-path p{font-size:12px;line-height:1.8;color:var(--muted);margin:0 0 18px}
+.review-path-go{font-size:11px;font-weight:800;border-bottom:1px solid currentColor;align-self:flex-start;padding-bottom:2px;margin-top:auto}
+.repair-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.repair-grid article{background:var(--paper);border:1px solid var(--border);padding:21px;display:grid;grid-template-columns:28px 1fr;column-gap:11px}
+.repair-no{font:400 20px Georgia,serif;color:var(--faint);grid-row:1 / span 2}
+.repair-grid h3{font-size:13px;margin:0 0 5px}.repair-grid p{grid-column:2;color:var(--muted);font-size:12px;line-height:1.75;margin:0}
+.b3-review-inline,.practice-review-links{background:var(--paper);border:1px solid var(--border);padding:25px 28px;margin-top:26px}
+.b3-review-inline h2,.practice-review-links h2{font:400 27px Georgia,serif;margin:9px 0 8px}
+.b3-review-inline p,.practice-review-links p{font-size:12px;color:var(--muted);line-height:1.75;max-width:680px}
+.b3-review-inline .action{margin-top:10px}.practice-review-actions{display:flex;gap:13px;flex-wrap:wrap;margin-top:18px}
+.practice-review-actions a{font-size:12px;font-weight:800;border-bottom:1px solid currentColor;text-decoration:none;padding-bottom:3px}
+@media(max-width:1100px){.review-paths{grid-template-columns:1fr 1fr}.review-path{min-height:225px}}
+@media(max-width:600px){.review-paths,.repair-grid{grid-template-columns:1fr}.review-path{min-height:0}.review-intro{padding:24px}.b3-review-inline,.practice-review-links{padding:22px}}
