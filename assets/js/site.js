@@ -1,6 +1,6 @@
 (()=>{
 'use strict';
-const allowed=['home','benchmark1','benchmark2','benchmark3','toolkit','practice','review','library','tracker'];const legacyRoutes={notes:'toolkit',papers:'benchmark1',feedback:'benchmark2'};
+const allowed=['home','benchmark1','benchmark2','benchmark3','toolkit','practice','review','library','tracker','last48','deepnotes','microexams','atlas'];const legacyRoutes={notes:'toolkit',papers:'benchmark1',feedback:'benchmark2'};
 const themeKey='proofdesk-theme-v1';const trackerKey='proofdesk-progress-v1';
 const doc=document.documentElement;const q=s=>document.querySelector(s);const all=s=>[...document.querySelectorAll(s)];
 function safeGet(k){try{return localStorage.getItem(k)}catch{return null}}
@@ -9,7 +9,7 @@ const osDark=()=>window.matchMedia&&matchMedia('(prefers-color-scheme: dark)').m
 let theme=safeGet(themeKey);theme=(theme==='dark'||theme==='light')?theme:(osDark()?'dark':'light');
 function applyTheme(t){theme=t;doc.dataset.theme=t;const b=q('#themeButton');b.setAttribute('aria-pressed',String(t==='dark'));b.querySelector('.theme-button-text').textContent=t==='dark'?'Light mode':'Dark mode';safeSet(themeKey,t)}
 applyTheme(theme);q('#themeButton').addEventListener('click',()=>applyTheme(theme==='dark'?'light':'dark'));
-function route(){const wanted=window.location.hash.slice(1).toLowerCase();const active=allowed.includes(wanted)?wanted:(legacyRoutes[wanted]||'home');all('main .view').forEach(s=>s.hidden=s.id!==active);all('[data-route]').forEach(a=>{if(a.dataset.route===active)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current')});document.title=({home:'The Proof Desk',benchmark1:'Benchmark 1',benchmark2:'Benchmark 2',benchmark3:'Benchmark 3',toolkit:'Method Toolkit',practice:'Practice Shelf',review:'Proof Review',library:'Reading Library',tracker:'My Progress'})[active]+' | The Proof Desk';window.scrollTo({top:0,behavior:'instant'})}
+function route(){const wanted=window.location.hash.slice(1).toLowerCase();const active=allowed.includes(wanted)?wanted:(legacyRoutes[wanted]||'home');all('main .view').forEach(s=>s.hidden=s.id!==active);all('[data-route]').forEach(a=>{if(a.dataset.route===active)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current')});document.title=({home:'The Proof Desk',benchmark1:'Benchmark 1',benchmark2:'Benchmark 2',benchmark3:'Benchmark 3',toolkit:'Method Toolkit',practice:'Practice Shelf',review:'Proof Review',library:'Reading Library',tracker:'My Progress',last48:'Exam Route',deepnotes:'Deep Notes',microexams:'Short Exams',atlas:'Problem Atlas'})[active]+' | The Proof Desk';window.scrollTo({top:0,behavior:'instant'})}
 window.addEventListener('hashchange',route);route();
 // Calendar-day countdown in the event's UK timezone. The clock updates while the tab remains open.
 const ukParts=new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/London',year:'numeric',month:'2-digit',day:'2-digit'});

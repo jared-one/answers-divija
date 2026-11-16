@@ -1,40 +1,237 @@
 {
-  "README.md": "7330b0378793befc498fb1cbab1ad3b09e572e2ed3337ec6436fc6ea0e29c2fd",
-  "README_DEPLOY.md": "4134bc40ff470d0eaa7ac582648451482b5f3ee3f6d50dbcb0fb02a34e18b26f",
-  "assets/css/site.css": "c76b879a20e6fbb9123b0cbd83ba72900828daa2a8435d33a0061a15c62fc732",
-  "assets/js/site.js": "de38e50707c123819a3cc8d9f27a7eb5468995b65f798491b046470eff3285e5",
-  "feedback/BMO_2019_Practice_Review.html": "27a79d6df070ab0cb9d61a0a5ea07f654623e545ff4e8fbe2a1321e957a94ec9",
-  "feedback/Benchmark_1_Learning_Record.html": "6452108883420caa1be2e4c399e758604a862f8c01f64f63800ddbe1f773c46e",
-  "feedback/Benchmark_2_Proof_Feedback.html": "478808c792fecb59283cb0b9ecc1b37f4c3aeafc050cda65f1e10aac98a49733",
-  "feedback/Benchmark_3_Proof_Repair.html": "5423cb51f9e1c09f94eff6dca0d1f4843a931d13ce9cc9c112d2e46d8174e13d",
-  "guides/One_Page_Method_Guide.pdf": "cb823aac90fd193ae6958d425038bb74a81afae9db2b1e85d081b5f617894f85",
-  "guides/Proof_Laboratory_Print.pdf": "e34de005eb5df39e928d9709b0e96744dbf9f17db4e1379db3e229a1a0c4debd",
-  "index.html": "aa0ab8a5945b42dacaab3dcaf19feba1cdce450d41aaf2fe422bb04ce1af4e66",
-  "notes/B1_Foundation_Inverted.html": "e14e155ab5c0a0edba5ffcd4fa7170303d6a1f1e0e378f7b1809ad2cc319f8f6",
-  "notes/B1_Foundation_Light.html": "657e55b064bafbb7c9d6a0002c218bd4fe5a4ffd7d38fb8917124f7f577a8754",
-  "notes/B2_Proof_Repair.html": "72034cb20f79989b59aa9dd0bc22d63d29395fc577dd196414b2609b01480fe9",
-  "notes/Geometry_Proof_Repair.html": "2966742d619d545c71ff7f849a23e6917cdc48508f976b0913d9801e0fdf714f",
-  "notes/Proof_Craft_Practice_Shelf.html": "eb3fd9cbf30dbaf065c34320624c7f7ecd362fd819b8303a7adee64533cf7e85",
-  "notes/Proof_Laboratory_Inverted.html": "ddd1f0dd67486df9652f3e1b1a3a2e685f595b0ead726151c622fb776e405c00",
-  "notes/Proof_Laboratory_Light.html": "2617b9e3d301b64871e485af1228bb0aa536318e1fbc86b1027d159c183a5746",
-  "papers/B1_Algebra.pdf": "7eed03ef49e2bbe860484401a3dbb80c1792af8dbec54228da4e5d0a0bf7efbc",
-  "papers/B1_Combinatorics.pdf": "f76ef2ee70c93432e22ddd2554edcdc8a31a113da42e142749b82a138137f5ab",
-  "papers/B1_Geometry.pdf": "965ae02592827e3734fc7de2a18442233614075ece626edf8d3c6e42f6c4c762",
-  "papers/B1_Number_Theory.pdf": "ff444e9d28398270ce0e7e19b1f6afc814abd25c4a6faf0f0256df0241b3a700",
-  "papers/B2_Algebra.pdf": "4c988792763c3f657a5abafdfdf72ea252b371b283a541dfca09d89356dc3635",
-  "papers/B2_Combinatorics.pdf": "a2d20775702c2c3058e6510ff4f0064b43cd724e3589d0731ae5fe0302c901d8",
-  "papers/B2_Geometry.pdf": "c026b911cad600dbf0b9084c3a86af3c082a550fa6a686f0dc177d6c046ee872",
-  "papers/B2_Number_Theory.pdf": "53982f3bfb8eabffb184678c372eb524e68acc194c347ed1ae7bf2dffc949baa",
-  "papers/B3_Algebra_Student.pdf": "39caa0e5483ba59578e376faf7afca7cd8fddfd60e0b100124abe7833c1acf6f",
-  "papers/B3_Authentic_BMO_Practice_Route.pdf": "83c3cbe75474ad7716d218a1bede8257ccda62ba1f7a2d4258e3fc40651f8ed1",
-  "papers/B3_Combinatorics_Student.pdf": "24c531e7f2a8c2ce05daa748c4edf14f855e3af11e6055adcc07874b12e1d840",
-  "papers/B3_Geometry_Student.pdf": "0f40b1e6e31619c10f39150bf2efd99c87e3071a75178452ceb9de6051200761",
-  "papers/B3_Number_Theory_Student.pdf": "a8bab4667a7653882b3c73c3b9ff3ad9fb2c43126ec003a1164e8c0b9b05d16c",
-  "papers/B3_Student_Answer_Booklet.pdf": "9f3eb5ff611309f01f3d5f57da835d4f331d7ff31dc8248c6383538ba27aab6e",
-  "papers/B3_Student_Complete.pdf": "b74b1e2b7dfb4a239e3ecb2905598e62350c226818cd42118524aa762f260069",
-  "papers/Benchmark_1_Answer_Booklet.pdf": "13c7db8181e597c625ee1093c0c77b705c82e8004b3a22b7cfc79d2650301991",
-  "papers/Benchmark_1_Full.pdf": "2dd40e804b5da60f30dbe292b2f43986a4ef04018c1876a84a54ddd10fd2ac4e",
-  "papers/Benchmark_2_Answer_Booklet.pdf": "422f6da54e3723c772702dc7ee1e822a2a5577854f9f0da755cf85871243e18e",
-  "papers/Benchmark_2_Full.pdf": "00986b161bdda85067e7f53c29fbb4581dbafd4b4a90f2810a86ff27c816344b",
-  "robots.txt": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1"
+  "release": "1.5",
+  "files": {
+    "CHANGELOG_V1_5.md": {
+      "sha256": "d21064b0dd8129cfad06bf56278b82a22e1b262741385c44d7d2a838aad6e6cb",
+      "bytes": 1741
+    },
+    "README.md": {
+      "sha256": "91c0f90f56e206352f941d4c896521a9c68bbaf5597ad409d7e1b3fefc2fc40a",
+      "bytes": 743
+    },
+    "README_DEPLOY.md": {
+      "sha256": "3004bce5c3f94c6fa9d7257f19b2f5fc4922fcbb5d2267db1f3b4c4a04e3152a",
+      "bytes": 1487
+    },
+    "assets/css/learning.css": {
+      "sha256": "30febe2cfc87efe682a852662d434301bf83e653c248bc41c15c41c498b71aa1",
+      "bytes": 8394
+    },
+    "assets/css/site.css": {
+      "sha256": "40e21284d97b3cfded314d5f9659b114909afbb9b2a4eb03d14b58158c02eed8",
+      "bytes": 20463
+    },
+    "assets/js/learning.js": {
+      "sha256": "be758fd1cbc7292981a10748b7aadd71fdafdf7e6b5184ff52e6bff92bef7f2f",
+      "bytes": 2680
+    },
+    "assets/js/site.js": {
+      "sha256": "0f62c1766a1ef6739562202a19f007b9aa3db11e540d3add19a5a538947e001a",
+      "bytes": 6001
+    },
+    "feedback/BMO_2019_Marked_Companion.html": {
+      "sha256": "28ac67b730b776f39ecd631d2f6d063828e3d87adb74c021171a709314b47345",
+      "bytes": 17103
+    },
+    "feedback/BMO_2019_Practice_Review.html": {
+      "sha256": "27a79d6df070ab0cb9d61a0a5ea07f654623e545ff4e8fbe2a1321e957a94ec9",
+      "bytes": 11885
+    },
+    "feedback/Benchmark_1_Learning_Record.html": {
+      "sha256": "6452108883420caa1be2e4c399e758604a862f8c01f64f63800ddbe1f773c46e",
+      "bytes": 4325
+    },
+    "feedback/Benchmark_2_Proof_Feedback.html": {
+      "sha256": "478808c792fecb59283cb0b9ecc1b37f4c3aeafc050cda65f1e10aac98a49733",
+      "bytes": 20115
+    },
+    "feedback/Benchmark_3_Marked_Companion.html": {
+      "sha256": "b47d136ced531fcd37f0e4c70c867300b76357789013f306567b2fe557ea16be",
+      "bytes": 24199
+    },
+    "feedback/Benchmark_3_Proof_Repair.html": {
+      "sha256": "5423cb51f9e1c09f94eff6dca0d1f4843a931d13ce9cc9c112d2e46d8174e13d",
+      "bytes": 17113
+    },
+    "guides/BMO_Quick_Proof_Checklist.pdf": {
+      "sha256": "491f46a9ec187cdac972fd3d034a79a33451912aec7a224ec4e6760d44a57676",
+      "bytes": 45998
+    },
+    "guides/One_Page_Method_Guide.pdf": {
+      "sha256": "cb823aac90fd193ae6958d425038bb74a81afae9db2b1e85d081b5f617894f85",
+      "bytes": 28176
+    },
+    "guides/Proof_Desk_Micro_Exams_Solutions.pdf": {
+      "sha256": "76850c555ef48e669638d59a6dd6bd04749572f927afb0c83a44f62d118b806b",
+      "bytes": 64430
+    },
+    "guides/Proof_Laboratory_Print.pdf": {
+      "sha256": "e34de005eb5df39e928d9709b0e96744dbf9f17db4e1379db3e229a1a0c4debd",
+      "bytes": 206615
+    },
+    "index.html": {
+      "sha256": "4938617d36e4fc490e1cd959fed961af12cb23d1ef004836a0e16fb51569a85f",
+      "bytes": 48294
+    },
+    "notes/Algebra_Inequalities_Complete_Course.html": {
+      "sha256": "a07616a94c1085b19f6eb4dd4814f695e613f3b641d1e0b1a95b2403c6a3e900",
+      "bytes": 15256
+    },
+    "notes/B1_Foundation_Inverted.html": {
+      "sha256": "e14e155ab5c0a0edba5ffcd4fa7170303d6a1f1e0e378f7b1809ad2cc319f8f6",
+      "bytes": 27829
+    },
+    "notes/B1_Foundation_Light.html": {
+      "sha256": "657e55b064bafbb7c9d6a0002c218bd4fe5a4ffd7d38fb8917124f7f577a8754",
+      "bytes": 27831
+    },
+    "notes/B2_Proof_Repair.html": {
+      "sha256": "72034cb20f79989b59aa9dd0bc22d63d29395fc577dd196414b2609b01480fe9",
+      "bytes": 6245
+    },
+    "notes/Combinatorics_Complete_Course.html": {
+      "sha256": "cdfbe5acc12e599b30418d2b0abff5d80a93802dacb88ccbcd4b88959f0f2e9f",
+      "bytes": 19647
+    },
+    "notes/Functional_Equations_Deep_Lab.html": {
+      "sha256": "77a3eec5da38a9982fbeeb8cab49aab38943393a7ef4b1cbf38d9691ff4adae8",
+      "bytes": 23610
+    },
+    "notes/Geometry_Complete_Course.html": {
+      "sha256": "f553f3edcaaa8bd463d57470b1c3e9f0a1b41fe6c99fe5105310a47a42338da0",
+      "bytes": 19598
+    },
+    "notes/Geometry_Proof_Repair.html": {
+      "sha256": "2966742d619d545c71ff7f849a23e6917cdc48508f976b0913d9801e0fdf714f",
+      "bytes": 8681
+    },
+    "notes/Number_Theory_Complete_Course.html": {
+      "sha256": "4a1ee61d96c50f96be6b21b4c520402b248b61fc96b0c75735154c042d84179a",
+      "bytes": 18437
+    },
+    "notes/Proof_Craft_Complete.html": {
+      "sha256": "89d5c30c174e8f8f2b0b519cc720a8f8f56b70e357e89a3ab76a9508da25d4a1",
+      "bytes": 16738
+    },
+    "notes/Proof_Craft_Practice_Shelf.html": {
+      "sha256": "eb3fd9cbf30dbaf065c34320624c7f7ecd362fd819b8303a7adee64533cf7e85",
+      "bytes": 4962
+    },
+    "notes/Proof_Laboratory_Inverted.html": {
+      "sha256": "ddd1f0dd67486df9652f3e1b1a3a2e685f595b0ead726151c622fb776e405c00",
+      "bytes": 50923
+    },
+    "notes/Proof_Laboratory_Light.html": {
+      "sha256": "2617b9e3d301b64871e485af1228bb0aa536318e1fbc86b1027d159c183a5746",
+      "bytes": 50917
+    },
+    "notes/Proof_Logic_If_OnlyIf.html": {
+      "sha256": "7110431747e84937e9785d2ec76422396c94655ce24112cc456510385a0c6780",
+      "bytes": 17587
+    },
+    "notes/Theorem_Studio.html": {
+      "sha256": "7626d3c796d84eee3e93f9d18ae9dfd300bfcedd1d8b77af356da237da402ec9",
+      "bytes": 29830
+    },
+    "papers/B1_Algebra.pdf": {
+      "sha256": "7eed03ef49e2bbe860484401a3dbb80c1792af8dbec54228da4e5d0a0bf7efbc",
+      "bytes": 204203
+    },
+    "papers/B1_Combinatorics.pdf": {
+      "sha256": "f76ef2ee70c93432e22ddd2554edcdc8a31a113da42e142749b82a138137f5ab",
+      "bytes": 181781
+    },
+    "papers/B1_Geometry.pdf": {
+      "sha256": "965ae02592827e3734fc7de2a18442233614075ece626edf8d3c6e42f6c4c762",
+      "bytes": 172369
+    },
+    "papers/B1_Number_Theory.pdf": {
+      "sha256": "ff444e9d28398270ce0e7e19b1f6afc814abd25c4a6faf0f0256df0241b3a700",
+      "bytes": 207348
+    },
+    "papers/B2_Algebra.pdf": {
+      "sha256": "4c988792763c3f657a5abafdfdf72ea252b371b283a541dfca09d89356dc3635",
+      "bytes": 150476
+    },
+    "papers/B2_Combinatorics.pdf": {
+      "sha256": "a2d20775702c2c3058e6510ff4f0064b43cd724e3589d0731ae5fe0302c901d8",
+      "bytes": 165842
+    },
+    "papers/B2_Geometry.pdf": {
+      "sha256": "c026b911cad600dbf0b9084c3a86af3c082a550fa6a686f0dc177d6c046ee872",
+      "bytes": 158307
+    },
+    "papers/B2_Number_Theory.pdf": {
+      "sha256": "53982f3bfb8eabffb184678c372eb524e68acc194c347ed1ae7bf2dffc949baa",
+      "bytes": 149767
+    },
+    "papers/B3_Algebra_Student.pdf": {
+      "sha256": "39caa0e5483ba59578e376faf7afca7cd8fddfd60e0b100124abe7833c1acf6f",
+      "bytes": 48723
+    },
+    "papers/B3_Authentic_BMO_Practice_Route.pdf": {
+      "sha256": "83c3cbe75474ad7716d218a1bede8257ccda62ba1f7a2d4258e3fc40651f8ed1",
+      "bytes": 48532
+    },
+    "papers/B3_Combinatorics_Student.pdf": {
+      "sha256": "24c531e7f2a8c2ce05daa748c4edf14f855e3af11e6055adcc07874b12e1d840",
+      "bytes": 47747
+    },
+    "papers/B3_Geometry_Student.pdf": {
+      "sha256": "0f40b1e6e31619c10f39150bf2efd99c87e3071a75178452ceb9de6051200761",
+      "bytes": 49784
+    },
+    "papers/B3_Number_Theory_Student.pdf": {
+      "sha256": "a8bab4667a7653882b3c73c3b9ff3ad9fb2c43126ec003a1164e8c0b9b05d16c",
+      "bytes": 47301
+    },
+    "papers/B3_Student_Answer_Booklet.pdf": {
+      "sha256": "9f3eb5ff611309f01f3d5f57da835d4f331d7ff31dc8248c6383538ba27aab6e",
+      "bytes": 41610
+    },
+    "papers/B3_Student_Complete.pdf": {
+      "sha256": "b74b1e2b7dfb4a239e3ecb2905598e62350c226818cd42118524aa762f260069",
+      "bytes": 59321
+    },
+    "papers/Benchmark_1_Answer_Booklet.pdf": {
+      "sha256": "13c7db8181e597c625ee1093c0c77b705c82e8004b3a22b7cfc79d2650301991",
+      "bytes": 145654
+    },
+    "papers/Benchmark_1_Full.pdf": {
+      "sha256": "2dd40e804b5da60f30dbe292b2f43986a4ef04018c1876a84a54ddd10fd2ac4e",
+      "bytes": 239045
+    },
+    "papers/Benchmark_2_Answer_Booklet.pdf": {
+      "sha256": "422f6da54e3723c772702dc7ee1e822a2a5577854f9f0da755cf85871243e18e",
+      "bytes": 136317
+    },
+    "papers/Benchmark_2_Full.pdf": {
+      "sha256": "00986b161bdda85067e7f53c29fbb4581dbafd4b4a90f2810a86ff27c816344b",
+      "bytes": 208338
+    },
+    "papers/Proof_Desk_Micro_Exams_Student.pdf": {
+      "sha256": "96250aa3727517023e6bbbadbcdb01497a99c148773e74e6488117e1cb9528df",
+      "bytes": 61286
+    },
+    "practice/Micro_Exams.html": {
+      "sha256": "e7b103b550fd2bceb6d9ade5d65d86a620bad4f2c7336d82f1a8afbb47d9ea55",
+      "bytes": 20202
+    },
+    "resources/MathsDB_BMO_Guide.html": {
+      "sha256": "6c0904078043746cbef7639cccaf1c81c4497641318b91c6cc69ae1d4d89b851",
+      "bytes": 12339
+    },
+    "resources/Problem_Atlas.html": {
+      "sha256": "4bb8447259ce24f6e094871e530d2beccea6df51b6698b278a189667730b661f",
+      "bytes": 31966
+    },
+    "robots.txt": {
+      "sha256": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1",
+      "bytes": 26
+    },
+    "study/Final_48_Hours.html": {
+      "sha256": "1a7331be034264a4f7cf9dcf316e244532c337cc4548dada222aaf1f5b8b4909",
+      "bytes": 7819
+    }
+  }
 }

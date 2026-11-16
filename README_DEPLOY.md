@@ -1,26 +1,18 @@
-# The Proof Desk - Release 1.3 / Proof Review
+# Proof Desk Version 1.4 — Deployment
 
-## Deploy the public package
-Unzip `Proof_Desk_V1_3_PUBLIC_SITE.zip` and deploy its root contents to a static web host. Preserve the directory structure (`index.html`, `assets/`, `feedback/`, `notes/`, `papers/`, `guides/`). No build step.
+Extract `Proof_Desk_V1_4_PUBLIC_SITE.zip` into the existing static site root and deploy all contents, not just index.html. Includes earlier Benchmark 1/2/3 papers, updated marked companions, full notes, the 12-exam practice booklet, and the source-attributed Problem Atlas.
 
-## What's new
-- New `#review` route with three pathways: Benchmark 3 proof repair (8 tasks), BMO1 2019 learning review (6 tasks), Geometry repair mini-lab.
-- `feedback/Benchmark_3_Proof_Repair.html` with 8 collapsible worked continuations.
-- `feedback/BMO_2019_Practice_Review.html` links to the genuine UKMT/BMOS archive and does not reproduce official question text.
-- `notes/Geometry_Proof_Repair.html` distinguishes a worked assisted example from independent evidence.
-- Home, Benchmark 3, Practice pages link to the new materials.
-- Progress checklist gains four new optional review activities. Existing `proofdesk-progress-v1` local data is preserved by the unchanged key and import/export format.
-- No changes to original B1/B2 PDFs, study resources or benchmark question PDFs.
+## Privacy and marks
+The student has consented to viewing marks. V1.5 therefore includes the provisional 21/56 and 28/60 photo-based evaluations and their question breakdowns. Original answer photographs and private teacher marking PDF are still excluded. The /10s are not official UKMT scores.
 
-## Privacy and release boundary
-The PUBLIC zip contains no individual marks, private scorecards, student photographs, names or examiner companion. A separate `Proof_Desk_V1_3_MENTOR_ONLY.zip` contains provisional marks and **must not be deployed publicly**. A static site, robots.txt and noindex meta tags do not provide access control.
+## Historical context
+The 2025 sitting is dated 19 November 2025 even when its official BMOS filename ends in 2026. The 2026 BMO1 is scheduled for 18 November 2026. BMO2 2027 will be an invitation-only National Final on 30 January 2027.
 
-## Manual checks after deployment
-1. Open all nine menu routes: Home, B1, B2, B3, Toolkit, Practice, Review, Library, Progress.
-2. Open all three review pages, expand each worked continuation, and follow the back link.
-3. Open earlier PDFs and verify older B1/B2 materials remain unchanged.
-4. Check tracker checkboxes persist after refresh and existing saved progress remains.
-5. Test mobile and keyboard navigation, and ensure private files never appear in the hosting directory.
+## Checks
+Verify nav routes (#last48, #deepnotes, #microexams, #atlas), local links, on-page proof reveals, atlas filters and the tracker after deployment. The original localStorage tracker key and existing data-progress keys are retained.
 
-## Educational status
-B3 is independent formative practice, 56 marks / 8 tasks / 190 suggested minutes, not BMO-equated. The 2019 archive links point to official UKMT/BMOS sources. Original answers are not reproduced. The review pages provide reasoning only, not certified UKMT grades.
+## Source copyright
+Authentic contest problems and external educational materials are linked at their origin; the 24 short-exam tasks and course explanations are newly written for this site.
+
+
+V1.5: Added resources/MathsDB_BMO_Guide.html and direct links to verified BMO geometry question pages. MathsDB is an independent third-party index; official UKMT is authoritative for current exam dates.

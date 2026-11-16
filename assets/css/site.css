@@ -51,3 +51,11 @@ a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible{
 .practice-review-actions a{font-size:12px;font-weight:800;border-bottom:1px solid currentColor;text-decoration:none;padding-bottom:3px}
 @media(max-width:1100px){.review-paths{grid-template-columns:1fr 1fr}.review-path{min-height:225px}}
 @media(max-width:600px){.review-paths,.repair-grid{grid-template-columns:1fr}.review-path{min-height:0}.review-intro{padding:24px}.b3-review-inline,.practice-review-links{padding:22px}}
+
+/* V1.4 expansion / compact navigation and accessible learning sections */
+@media(min-width:801px){.sidebar{padding-top:21px;padding-bottom:18px}.sidebar-label{margin-top:19px;margin-bottom:8px}.nav-side{gap:1px}.nav-link{padding:7px 9px;font-size:12px}.side-foot{padding-top:11px}.review-paths{grid-template-columns:repeat(2,minmax(0,1fr))}.review-path{min-height:218px}}
+@media(max-height:760px) and (min-width:801px){.sidebar{overflow-y:auto}.side-foot{display:none}.sidebar-label{margin-top:12px}}
+@media(max-width:650px){.review-paths{grid-template-columns:1fr}}
+.b3-home-note .hero-actions{margin-top:14px;flex-wrap:wrap}.b3-home-note h2{font-size:clamp(23px,2.5vw,33px)}
+#deepnotes .review-paths{grid-template-columns:repeat(2,minmax(0,1fr))}#deepnotes .review-path{min-height:200px}
+@media(max-width:650px){#deepnotes .review-paths{grid-template-columns:1fr}}
